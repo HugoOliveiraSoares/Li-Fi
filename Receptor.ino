@@ -1,6 +1,6 @@
 
 #define tam 8
-
+//TESTE NO GIT
 int byt = 0;
 const int LDR = 0;
 int valorlido[10]; // armazena valor do LDR
