@@ -19,7 +19,7 @@ void loop()
   {
     for(int i=0; i<tam; i++)
     {
-      mensagem = Serial.readString();
+      mensagem = Serial.read();
       ascii =(int) mensagem;
       if (ascii >= 1)
       {
@@ -39,7 +39,8 @@ void loop()
         Serial.print("Binario:");
         for (i = 0; i < tam; i++)
         {
-          Serial.print("%2i",bin[i]);
+          Serial.print("%2i");
+          Serial.print(bin[i]);
         }
 
       } 
@@ -53,12 +54,11 @@ void loop()
         Serial.print("Binario:");
         for (i = 0; i <tam; i++)
         {
-          Serial.print("%2i",bin[i]);
+          Serial.print("%2i");
+          Serial.print(bin[i]);
         }
 
       }
-
-      Serial.print("\n\n");
     }
 
 
@@ -69,4 +69,3 @@ void loop()
   }
 
 }// end loop
-
