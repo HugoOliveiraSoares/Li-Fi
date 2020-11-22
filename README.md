@@ -1,8 +1,24 @@
 # Li-Fi
-O sistema  Visible Light Communication (VLC) tem se tornado uma opção para complementar os sistemas de comunicação sem fio, pois o espectro de radiofrequência esta se tornando escasso devido o aumento exponencial do número de dispositivos móveis que utilizam as
-redes sem fio para se conectar com a internet.
-O VLC se baseia na comunicação através da luz visível,a partir da  variação da intensidade da luz. Pode ser utilizado em vastas aplicações, com em ambientes internos e externos. Este projeto foi desenvolvido no colegio São francisco de assis.
 
-The Visible Light Communication (VLC) system has become an option to complement the wireless communication systems as the radio frequency spectrum is becoming scarce due to the exponential increase in the number of mobile devices that use the
-wireless networks to connect to the internet.
-The VLC is based on communication through visible light, from the variation of light intensity. It can be used in large applications, indoors and outdoors. This project was developed at the São Francisco School of Assis.
+[Portuguese version of the readme](README-PT.md)
+
+Li-Fi (Light Fidelity) is a project created in a scientific iniciation group at Colegio São Francisco de Assis in 2017 with the objective of studying about this tecnology, now I going to continue with the studies and maybe turn it into my college graduation project.
+
+## What is LI-FI
+
+Li-Fi is part of a technology called VLC ( Visible Light Communication ) that allows you transmit information using LED lamps. It is similar to the infrared of a television remote control but the visible spectrum is used for the transmission, that is, you can use led lamps for lighting and transmit data at the same time.
+
+![Li-Fi](https://d2mpqlmtgl1znu.cloudfront.net/AcuCustom/Sitename/DAM/012/news-energy-mar18-lifi_rm.jpg)
+
+### How it works
+
+The system is composed with an emitter with an led for sending signal and an receiver with an ldr for the reading. According to the variation of the led emitter the receiver interprets this information and decodes.
+
+![SystemSchema](images/SystemSchema.png)
+
+## Objective
+
+Study this tecnology, analyze its characteristics, corret and improve what was done in 2017 [(document of the project)](https://github.com/HugoOliveiraSoares/Li-Fi/blob/master/TCC/Li-Fi(2017).pdf)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
